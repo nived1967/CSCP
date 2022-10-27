@@ -1,4 +1,27 @@
-.nav-link
+.navigation
 {
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .logo-container{
+        margin:1%;
+    }
+    .nav-links-container
+    {
+        padding: 2%;
+        margin-right: 14%;
+        .nav-link{
+            padding:7%;
+            text-decoration: none;
+            color: #FCCF14;
+        }
+
+        .nav-link:hover{
+            color:white;
+        }
+
+        
+    }
 }
