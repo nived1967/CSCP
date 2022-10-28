@@ -1,5 +1,5 @@
-body{
-    background-color: black;
+*{
+    background-color: #161414;
     background-image: url("home cscp.jpeg");
     background-size: 1500px 700px;
 }
@@ -34,7 +34,7 @@ h2{
     line-height: 28px;
     color: #FFFFFF;
 }
-button{
+.Button{
     width: 200px;
     height: 50px;
     background-color: black;
@@ -49,4 +49,4 @@ button{
     top: 550px;
     position: relative;
 }
-
+ 
