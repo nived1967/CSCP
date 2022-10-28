@@ -1,0 +1,56 @@
+.head{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px; 
+    background: linear-gradient(270deg, #108690 44.74%, #2F3180 95.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; 
+}
+.goal{ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+    color: #FCCF14;
+}
+.discription-goal1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px; 
+    color: #FFFFFF;
+}
+.objectives{ 
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; 
+    color: #108690;
+}
+ 
+.x{
+    display: flex;
+    flex-direction: column;  
+    margin-left: 5%; 
+}
+.y{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 15%; 
+}
+.new1{
+    display: flex;
+    flex-direction: row;
+}
+.new2{
+    display: flex;
+    flex-direction: row; 
+}
