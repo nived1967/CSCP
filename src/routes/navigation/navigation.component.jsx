@@ -26,7 +26,10 @@ const Navigation = () =>
             <Link className="nav-link" to='/contact'>
             Contact
             </Link>
-        </div>
+            </div>
+            <h3>CYBERSECURITY AND<br></br> COMPETITIVE <br></br>PROGRAMMING CLUB</h3>
+            <h2>An initiative by a group of cybersecurity and competitive<br></br>programming enthusiasts at College Of Enginneering,<br></br>Trivandrum</h2>
+            <button>Latest Activities</button>
     </div>
     <Outlet/>
     </Fragment>

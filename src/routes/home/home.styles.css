@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    background-image: url("home cscp.jpeg");
+    background-size: 1500px 700px;
+}
+h3{
+    color: rgb(63, 146, 219);
+    position: absolute;
+    width: 799px;
+    height: 234px;
+    left: 526px;
+    top: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 78px;
+    background: linear-gradient(270deg, #108690 44.74%, #2F3180 95.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+h2{ 
+    position: absolute;
+    width: 663px;
+    height: 84px;
+    left: 526px;
+    top: 400px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 1;
+    font-size: 23px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+button{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color:   #FCCF14;
+    font-size: 20px;   
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    border: 2px solid   #FCCF14;
+    border-radius: 10%;
+    left: 526px;
+    top: 550px;
+    position: relative;
+}
+
