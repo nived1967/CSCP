@@ -72,7 +72,7 @@ h2 {
     font-weight: 500;
     border: 2px solid #fccf14;
     border-radius: 10%;
-    left: 500px;
-    bottom: 300px;
-    position: relative;
+    left: 45%;
+    bottom: 10px;
+    position: absolute;
 }
