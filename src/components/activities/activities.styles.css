@@ -8,7 +8,8 @@
     font-weight: 90;
     font-size: 120px; 
     text-shadow: -1px 0 white, 0 -1px white;
-    font-family: sans-serif; color: rgb(2, 29, 83);
+    font-family: sans-serif; color:  rgb(1, 15, 41);
+    background-color:  rgb(1, 15, 41);
 }
 .blogs{
     display: flex;
@@ -27,6 +28,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    background-color:  rgb(1, 15, 41);
 }
 .discription-blogs{  
         display: flex;
@@ -40,6 +42,7 @@
         font-weight: 100;
         font-size: 18px; 
         color: #FFFFFF;
+        background-color:  rgb(1, 15, 41);
 }
 .lightblue{ 
         background: linear-gradient(180deg, #108690 0%, #2F3180 100%);
@@ -58,13 +61,26 @@
     flex-direction: row; 
     margin-left: 30%;  
     justify-content: space-around;
+    background-color:  rgb(1, 15, 41);
 } 
 .text{   
     font-size: 30px; 
     margin-left: 15%;
     color: white;
-    background: transparent;
+    background: transparent; 
 }
+.contct{
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+.activities_color{
+    background-color: rgb(1, 15, 41);
+    font-size: 10px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
  
 
 
