@@ -12,6 +12,23 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text; 
+    
+}
+
+.image{
+    background-image: url("./../../assets/2_new.png");
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    margin-left: 750px;
+    opacity: 0.9;
+    background-size: 350px 420px;
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    float: right;
+    
 }
 .goal{ 
     font-family: 'Montserrat';

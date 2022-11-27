@@ -37,47 +37,49 @@ h2 {
     background-clip: text;
 }
 .home .row {
-    display: flex;
+    display:flex;
     flex-direction: row;
 }
 .home .row .left {
     background-image: url("home_img.png");
-    margin-left: 1rem;
+    margin-left: .25rem;
     display: flex;
     opacity: 0.6;
-    position: relative;
+    position:relative;
     background-repeat: no-repeat;
-    height: 580px;
-    width: 400px;
+    height: 36.25rem;
+    width: 35rem;
+    float: left;
+    
 }
 .home .row .right {
     background-image: url("CSCP.png");
-    margin-right: 20px;
-    height: 827px;
-    width: 218.4px;
-    margin-left: 650px;
+    height: 51.7rem;
+    width: 13.65rem;
+    margin-left: 38.625rem;
     opacity: 0.4;
-    background-size: 200px 580px;
+    background-size: 12.5rem 36.25rem;
     background-repeat: no-repeat;
+    
 }
 
 .Button {
-    width: 200px;
-    height: 50px;
+    width: 12.5rem;
+    height: 3.125rem;
     background-color: black;
     color: #fccf14;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     border: 2px solid #fccf14;
     border-radius: 10%;
     left: 45%;
-    bottom: 10px;
+    bottom: 0.625rem;
     position: absolute;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 56.25rem) {
     .home{
         overflow: hidden;
     }
@@ -85,11 +87,11 @@ h2 {
         color: rgb(63, 146, 219);
         position: absolute;
         font-family: "Montserrat";
-        left:100px;
+        left:6.25rem;
         font-style: normal;
         font-weight: 400;
-        font-size: 44px;
-        line-height: 78px;
+        font-size: 2.75rem;
+        line-height: 4.875rem;
         background: linear-gradient(270deg, #108690 44.74%, #2f3180 95.31%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -97,13 +99,13 @@ h2 {
     }
     h2 {
         position: absolute;
-        left: 90px;
+        left: 5.625rem;
     
         font-family: "Montserrat";
         font-style: normal;
         font-weight: 1;
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 1.5rem;
+        line-height: 1.75rem;
         color: #FFFFFF;
         background-clip: text;
     }
@@ -114,30 +116,30 @@ h2 {
         opacity: 0.6;
         position: relative;
         background-repeat: no-repeat;
-        height: 0px;
-        width: 0px;
+        height: 0rem;
+        width: 0rem;
     }
     .home .row .right {
         background-image: none;
-        margin-right: 20px;
-        height: 0px;
-        width: 0px;
-        margin-left: 650px;
+        margin-right: 1.25rem;
+        height: 0rem;
+        width: 0rem;
+        margin-left: 40.625rem;
         opacity: 0.4;
-        background-size: 0px 0px;
+        background-size: 0rem 0rem;
         background-repeat: no-repeat;
     }
 
     .Button {
-        width: 200px;
-        height: 50px;
+        width: 12.5rem;
+        height: 3.125rem;
         background-color: black;
         color: #fccf14;
-        font-size: 20px;
+        font-size: 1.25rem;
         font-family: "Montserrat";
         font-style: normal;
         font-weight: 500;
-        border: 2px solid #fccf14;
+        border: 0.125rem solid #fccf14;
         border-radius: 10%;
         left: 45%;
         bottom: 0.5rem;

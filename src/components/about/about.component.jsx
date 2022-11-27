@@ -4,7 +4,10 @@ const About=()=>
 {
     return(
        <div className='about'>
+        
         <h1 className='head'>ABOUT THE CLUB</h1>
+        <div className='image2'></div>
+        
 
         <div className='new1'>
         <div className='x'>
