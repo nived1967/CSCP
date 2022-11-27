@@ -76,3 +76,49 @@ h2 {
     bottom: 10px;
     position: absolute;
 }
+
+@media only screen and (max-width: 900px) {
+    h3 {
+        color: rgb(63, 146, 219);
+        position: absolute;
+        font-family: "Montserrat";
+        left:100px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 78px;
+        background: linear-gradient(270deg, #108690 44.74%, #2f3180 95.31%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    h2 {
+        position: absolute;
+        width: 663px;
+        height: 84px;
+        left: 100px;
+    
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 1;
+        font-size: 23px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background-clip: text;
+    }
+    .Button {
+        width: 200px;
+        height: 50px;
+        background-color: black;
+        color: #fccf14;
+        font-size: 20px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        border: 2px solid #fccf14;
+        border-radius: 10%;
+        left: 45%;
+        bottom: 0.5rem;
+        position: absolute;
+    }
+  }
