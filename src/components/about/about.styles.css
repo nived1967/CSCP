@@ -7,7 +7,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 48px; 
+    font-size: 3rem; 
     background: linear-gradient(270deg, #108690 44.74%, #2F3180 95.31%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -20,12 +20,12 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
-    margin-left: 750px;
+    margin-right: 6.25rem;
+    margin-left: 47rem;
     opacity: 0.9;
-    background-size: 350px 420px;
-    height: 400px;
-    width: 400px;
+    background-size: 22rem 26.25rem;
+    height: 25rem;
+    width: 25rem;
     background-repeat: no-repeat;
     float: right;
     
@@ -34,14 +34,14 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px; 
+    font-size: 1.25rem; 
     color: #FCCF14;
 }
 .discription-goal1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 18px; 
+    font-size: 1.125rem; 
     color: #FFFFFF;
 }
 .objectives{ 
@@ -49,7 +49,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px; 
+    font-size: 1.25rem; 
     color: #108690;
 }
  
@@ -71,7 +71,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 18px; 
+    font-size: 1.125rem; 
     color: #FFFFFF;
     display: flex;
     flex-direction: row;
@@ -86,7 +86,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 2.5;
+    line-height: 3rem;
     color: #108690;
 }
