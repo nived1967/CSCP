@@ -30,7 +30,7 @@
     }
 }
 
-$breakpoint-tablet: 900px;
+$breakpoint-tablet: 56.25rem;
 
 @media only screen and (max-width: $breakpoint-tablet) {
   .navigation {

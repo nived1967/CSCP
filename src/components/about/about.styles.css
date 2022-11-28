@@ -15,19 +15,19 @@
     
 }
 
-.image{
+.image2{
     background-image: url("./../../assets/2_new.png");
     position: absolute;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-right: 6.25rem;
-    margin-left: 47rem;
+    margin-left: 55rem;
     opacity: 0.9;
     background-size: 22rem 26.25rem;
     height: 25rem;
     width: 25rem;
     background-repeat: no-repeat;
-    float: right;
+   
     
 }
 .goal{ 

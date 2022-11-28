@@ -6,7 +6,7 @@
     margin-top: 0%;
   
     font-weight: 90;
-    font-size: 120px; 
+    font-size: 7.5rem; 
     text-shadow: -1px 0 white, 0 -1px white;
     font-family: sans-serif; color:  rgb(1, 15, 41);
     background-color:  rgb(1, 15, 41);
@@ -21,7 +21,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px; 
+    font-size: 2.25rem; 
     letter-spacing: 0.05em;
 
     background: linear-gradient(270deg, #108690 -27.23%, #2F3180 100%);
@@ -40,21 +40,21 @@
         font-family: sans-serif;
         font-style: normal;
         font-weight: 100;
-        font-size: 18px; 
+        font-size: 1.125rem; 
         color: #FFFFFF;
         background-color:  rgb(1, 15, 41);
 }
 .lightblue{ 
         background: linear-gradient(180deg, #108690 0%, #2F3180 100%);
         size: 50%;
-        width: 333px;
-        height: 245px;  
+        width: 20.8rem;
+        height: 15.3rem;  
 }
 .darkblue{ 
         
         background: linear-gradient(180deg, #2F3180 0%, rgba(63, 61, 86, 0.54) 100%);
-        width: 333px;
-        height: 245px;    
+        width: 20.8rem;
+        height: 15.3rem;    
 }  
 .both{
     display: flex;
@@ -64,19 +64,19 @@
     background-color:  rgb(1, 15, 41);
 } 
 .text{   
-    font-size: 30px; 
+    font-size: 1.875rem; 
     margin-left: 15%;
     color: white;
     background: transparent; 
 }
 .contct{
-    height: 30px;
+    height: 1.875rem;
     color: white;
     background-color: black;
 }
 .activities_color{
     background-color: rgb(1, 15, 41);
-    font-size: 10px;
+    font-size: .625rem;
     font-weight: 100;
     font-family: sans-serif;
 }
