@@ -6,7 +6,7 @@
 h3 {
     color: rgb(63, 146, 219);
     position: absolute;
-    width: 799px;
+    width: 700px;
     height: 234px;
     left: 500px;
     top: 100px;
@@ -38,6 +38,7 @@ h2 {
 }
 .home .row {
     display:flex;
+    justify-content: space-between;
     flex-direction: row;
 }
 .home .row .left {
@@ -49,14 +50,15 @@ h2 {
     background-repeat: no-repeat;
     height: 36.25rem;
     width: 35rem;
-    float: left;
+   
+  
     
 }
 .home .row .right {
     background-image: url("CSCP.png");
     height: 51.7rem;
     width: 13.65rem;
-    margin-left: 38.625rem;
+    margin-right: 0rem;
     opacity: 0.4;
     background-size: 12.5rem 36.25rem;
     background-repeat: no-repeat;
@@ -87,7 +89,8 @@ h2 {
         color: rgb(63, 146, 219);
         position: absolute;
         font-family: "Montserrat";
-        left:6.25rem;
+        left:4rem;
+        
         font-style: normal;
         font-weight: 400;
         font-size: 2.75rem;
@@ -111,7 +114,7 @@ h2 {
     }
     .home .row .left {
         background-image: none;
-        margin-left: 1rem;
+        margin-left: 0;
         display: flex;
         opacity: 0.6;
         position: relative;
@@ -121,10 +124,10 @@ h2 {
     }
     .home .row .right {
         background-image: none;
-        margin-right: 1.25rem;
+        margin-right: 0;
         height: 0rem;
         width: 0rem;
-        margin-left: 40.625rem;
+        margin-left: 0;
         opacity: 0.4;
         background-size: 0rem 0rem;
         background-repeat: no-repeat;
