@@ -154,11 +154,11 @@
     .y{
         display: flex;
         flex-direction: column; 
-        margin-left: 15%; 
+        margin-left: 5%; 
     }
     .new1{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .discription-goal2{
         font-family: 'Montserrat';
@@ -168,7 +168,7 @@
         color: #FFFFFF;
         display: flex;
         flex-direction: row;
-        margin-left: 13%;
+        margin-left: 5%;
     }
     .community{
         display: flex;
