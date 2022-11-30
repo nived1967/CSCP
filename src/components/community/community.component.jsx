@@ -14,7 +14,9 @@ const Community = () =>{
         <br></br>
         <div className='images1'>
             <div className='images2'><img src={poster1} alt="poster1"></img></div>
+            <br></br>
             <div className='images2'><img src={poster2} alt="poster2"></img></div>
+            <br></br>
             <div className='images2'><img src={poster3} alt="poster3"></img></div>
         </div>
     </div>
