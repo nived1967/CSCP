@@ -80,7 +80,92 @@
     font-weight: 100;
     font-family: sans-serif;
 }
-
+@media only screen and (max-width: 56.25rem){
+    .activities{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-top: 0%;
+      
+        font-weight: 40;
+        font-size: 4.5rem; 
+        text-shadow: -1px 0 white, 0 -1px white;
+        font-family: sans-serif; color:  rgb(1, 15, 41);
+        background-color:  rgb(1, 15, 41);
+        
+    }
+    .both{
+        display: flex;
+        flex-direction: column; 
+        margin-left: 10%;  
+        justify-content: space-around;
+        background-color:  rgb(1, 15, 41);
+    } 
+    .blogs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 15%; 
+        margin-bottom: 0%;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2rem; 
+        letter-spacing: 0.05em;
+    
+        background: linear-gradient(270deg, #108690 -27.23%, #2F3180 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        background-color:  rgb(1, 15, 41);
+    }
+    
+    .text{   
+        font-size: 1rem; 
+        margin-left: 15%;
+        color: white;
+        background: transparent; 
+    }
+    .contct{
+        height: 1.6rem;
+        color: white;
+        background-color: black;
+    }
+    .activities_color{
+        background-color: rgb(1, 15, 41);
+        font-size: .625rem;
+        font-weight: 100;
+        font-family: sans-serif;
+    }
+    .discription-blogs{  
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-left: 15%; 
+        margin-bottom: 0%;
+    
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        font-size: 1.125rem; 
+        color: #FFFFFF;
+        background-color:  rgb(1, 15, 41);
+    }
+    .lightblue{ 
+        background: linear-gradient(180deg, #108690 0%, #2F3180 100%);
+        size: 50%;
+        width: 15.8rem;
+        height: 10.3rem;  
+    }
+    .darkblue{ 
+        
+        background: linear-gradient(180deg, #2F3180 0%, rgba(63, 61, 86, 0.54) 100%);
+        width: 15.8rem;
+        height: 10.3rem;    
+    }  
+}
  
 
 

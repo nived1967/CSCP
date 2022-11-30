@@ -20,7 +20,7 @@ const Activities = () =>
         </div>
         <br></br>
         <br></br>
-        <div className='contct'>
+        <div className='contct' id="contacts">
             <br></br>
             <center>
                 <h1 className='contct'>Contact Us</h1>
