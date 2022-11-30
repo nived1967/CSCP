@@ -75,8 +75,12 @@
     background-color: black;
 }
 .activities_color{
-     height: 100%;
-     width: 100%;
+    background-color: rgb(1, 15, 41);
+    font-size: .625rem;
+    font-weight: 100;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
 }
 @media only screen and (max-width: 56.25rem){
     .activities{
@@ -131,7 +135,11 @@
         color: white;
         background-color: black;
     }
-    .activities_color{ 
+    .activities_color{
+        background-color: rgb(1, 15, 41);
+        font-size: .625rem;
+        font-weight: 100;
+        font-family: sans-serif;
         height: 100%;
         width: 100%;
     }
